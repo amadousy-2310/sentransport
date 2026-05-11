@@ -10,6 +10,8 @@ function Recherche({ valeur, onChange }) {
         value={valeur}
         onChange={e => onChange(e.target.value)}
       />
+      {/* Exercice 1 : bouton Effacer - ne fait pas partie du lab */}
+      <button className="recherche-btn" onClick={() => onChange("")}>Effacer</button>
     </div>
   );
 }

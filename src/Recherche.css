@@ -20,3 +20,17 @@
 .recherche-input::placeholder {
   color: #b2bec3;
 }
+/* Exercice 1 : style du bouton Effacer - ne fait pas partie du lab */
+.recherche {
+  display: flex;
+  gap: 10px;
+}
+
+.recherche-btn {
+  padding: 10px 16px;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
